@@ -1,0 +1,86 @@
+body{
+    background-color: cornflowerblue;
+    margin: 0;
+    padding:0;
+    
+    background-position: center;
+    background: url("https://wallpaperaccess.com/full/768656.jpg ");
+    background-size: auto;
+}
+
+.loginbox{
+    width: 320px;
+    height: 500px;
+    background: #085594;
+    color:#b0dff3;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 50px;
+    font-size: 17px;
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+} 
+.loginbox a{
+    color:rgb(255, 255, 255);;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+  
+}
+.loginbox a:hover{
+    color:#ffc107
+}
+h1{
+    margin: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0 0 30px;
+    font-size: 40px;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    color: #000000;
+    background: rgb(47, 143, 227);
+    height: 35px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    
+    color: #000;
+    background: #16c3b4;
+    cursor: pointer;
+}
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid  rgb(47, 143, 227);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    color: rgb(132, 212, 248);
+    font-size: 16px;
+}
+p{
+    margin: 2px;
+    margin-top: 3%;
+}
